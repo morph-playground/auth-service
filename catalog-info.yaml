@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: item-service
+  description: Express.js service for item management
+  tags:
+    - typescript
+    - backend
+    - template
+    - express
+    - nodejs
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/auth-service/item-service
+spec:
+  type: service
+  lifecycle: production
+  owner: user:default/guest
+  system: item-management
